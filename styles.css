@@ -1,0 +1,33 @@
+.links{
+    font-size: 25px;
+    margin-left: 25%;
+}
+
+img{
+    width: 100%;
+}
+
+#countdown{
+    position: absolute;
+    z-index: 1;
+    margin-top: 88.7%;
+    margin-left: 55.5%;
+    font-family: "Asap", sans-serif;
+    font-size: 80%;
+    font-weight: 700;
+    font-style: normal;
+    color: #333; /* Darker text for contrast */
+}
+
+#redeem-by {
+    position: absolute;
+    z-index: 1;
+    margin-top: 97.5%;
+    margin-left: 23.4%;
+    font-size: 85%;
+    font-weight: bold;
+    color: #161616;
+    font-family: "Asap", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1%; /* Reduce spacing */
+}
