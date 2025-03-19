@@ -1,3 +1,9 @@
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/repo-name/sw.js')
+    .then(reg => console.log("Service Worker Registered", reg))
+    .catch(err => console.log("Service Worker Failed", err));
+}
+
 // Set countdown time in seconds (15 minutes)
 let timeLeft = 15 * 60; 
 
