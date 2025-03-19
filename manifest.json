@@ -13,7 +13,6 @@
         "type": "image/png"
       }
     ],
-    "start_url": "github.com/gwertis/free-wawa/index.html",
     "start_url": "github.com/gwertis/free-wawa/frozen-bevarage.html",
     "scope": "github.com/gwertis/free-wawa/",
     "display": "standalone",
