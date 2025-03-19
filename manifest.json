@@ -13,8 +13,8 @@
         "type": "image/png"
       }
     ],
-    "start_url": "/",
-    "scope": "/",
+    "start_url": "/free-wawa/index.html",
+    "scope": "/free-wawa/",
     "display": "fullscreen",
     "background_color": "#ffffff",
     "theme_color": "#000000"
