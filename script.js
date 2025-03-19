@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/repo-name/sw.js')
+    navigator.serviceWorker.register('/github.com/gwertis/free-wawa/sw.js')
     .then(reg => console.log("Service Worker Registered", reg))
     .catch(err => console.log("Service Worker Failed", err));
 }
