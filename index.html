@@ -17,7 +17,16 @@
 
     <title>Document</title>
 </head>
-<body><br><br><br><br><br><br><br>
+<body>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Service Worker registered:', reg))
+            .catch(err => console.log('Service Worker registration failed:', err));
+    }
+</script>
+
+<br><br><br><br><br><br><br>
 <a href="hoagie.html" class="links">hoagie</a><br>
 <a href="specialty-sandwich.html" class="links">specialty sandwich</a><br>
 <a href="frozen-bevarage.html" class="links">frozen bevarage</a><br>
